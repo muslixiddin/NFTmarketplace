@@ -1,0 +1,347 @@
+.hero{
+    display: flex;
+    gap:30px;
+      .hero-pages1{
+        width: 50%;
+        // height: 40vh;
+        margin: 80px 0px;
+        .hero-title{
+            font-size: 67px;
+            font-weight: 600;
+            width: 70%;
+            color: white;
+        }
+        .hero-title2{
+            font-size: 22px;
+            font-weight: 400;
+            color: white;
+            width: 80%;
+            margin: 20px 0px;
+        }
+        #hero-button{
+            padding: 15px 30px;
+            border-radius: 18px;
+            border: none;
+            cursor: pointer;
+        background-color: #A259FF;
+        color: white;
+    
+        }
+        .hero-number{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0px;
+            span{
+                width: 100%;
+            }
+            .spn{
+                width: 40%;
+            }
+            p{
+                color: white;
+                font-size: 25px;
+            }
+            .hero-bod{
+                color: white;
+                font-family: "Space Mono", monospace;
+            }
+        }
+      }
+      .hero-pages2{
+         width: 50%;
+         height: 70vh;
+         margin: 80px 0px;
+         background-color: 
+         #3B3B3B;
+         border-radius: 20px;
+         overflow: hidden;
+         .hero-pages-img{
+            width: 100%;
+            height: 80%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .hero-pages2-text{
+            margin: 22px 20px 0px ;
+            .hero-pages2-txt{
+                font-size: 22px;
+                font-weight: 600;
+                color: white;
+            }
+        }
+        .hero-pages2-span{
+            display: flex;
+            gap: 10px;
+            margin: 10px 20px;
+            .mayda-text{
+                color: white;
+            }
+        }
+      }
+      .button-non{
+           .hero-button-non{
+        display: none;
+           }
+      }
+      .hero-number-non{
+        span{
+            display: none;
+        }
+
+      }
+}
+    // 992 772 576
+    @media(max-width:1270px){
+        .hero{
+            display: flex;
+            gap:30px;
+              .hero-pages1{
+                width: 50%;
+                // height: 40vh;
+                margin: 80px 0px;
+                .hero-title{
+                    font-size: 57px;
+                    font-weight: 600;
+                    width: 80%;
+                    color: white;
+                }
+             
+         
+    }
+        }
+    }
+@media (max-width:992px){
+    .hero{
+        // background-color: red;
+        display: flex;
+        gap:30px;
+          .hero-pages1{
+            width: 50%;
+            // height: 40vh;
+            margin: 80px 0px;
+            .hero-title{
+                font-size: 37px;
+                font-weight: 600;
+                width: 70%;
+                color: white;
+            }
+            .hero-title2{
+                font-size: 20px;
+                font-weight: 400;
+                width: 80%;
+                margin: 20px 0px;
+            }
+            .hero-button{
+                padding: 15px 30px;
+                border-radius: 18px;
+        
+            }
+            .hero-number{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 30px 0px;
+                span{
+                    width: 100%;
+                }
+                .spn{
+                    width: 40%;
+                }
+                p{
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+          }
+          .hero-pages2{
+             width: 50%;
+             height: 50vh;
+             margin: 80px 0px;
+             .hero-pages-img{
+                width: 100%;
+                height: 80%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .hero-pages2-text{
+                margin: 10px 20px 0px ;
+                .hero-pages2-txt{
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: white;
+                }
+            }
+            .hero-pages2-span{
+                display: flex;
+                gap: 10px;
+                margin: 10px 20px;
+                .mayda-text{
+                    color: white;
+                }
+            }
+          }
+    }
+
+}
+
+@media (max-width:772px){
+    .hero{
+        // background-color: red;
+        display: flex;
+        gap:30px;
+          .hero-pages1{
+            width: 50%;
+            // height: 40vh;
+            margin: 80px 0px;
+            .hero-title{
+                font-size: 37px;
+                font-weight: 600;
+                width: 100%;
+                color: white;
+            }
+            .hero-title2{
+                font-size: 17px;
+                font-weight: 400;
+                width: 80%;
+                margin: 20px 0px;
+
+            }
+}
+    }
+}
+@media (max-width:576px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+          .hero-pages1{
+            width: 100%;
+            // height: 40vh;
+            margin: 80px auto;
+            .hero-title{
+                font-size: 45px;
+                font-weight: 600;
+                // width: 90%;
+                color: white;
+            }
+            .hero-title2{
+                font-size: 22px;
+                font-weight: 400;
+                color: white;
+                width: 80%;
+                margin: 20px 0px;
+            }
+            .hero-button{
+            //     padding: 15px 30px;
+            //     border-radius: 18px;
+            //     border: none;
+            //     cursor: pointer;
+            // background-color: #A259FF;
+            // color: white;
+            display: none;
+        
+            }
+            .hero-number{
+                // width: 100%;
+                // display: flex;
+                // justify-content: space-between;
+                // align-items: center;
+                // margin: 30px 0px;
+                display: none;
+                span{
+                    width: 100%;
+                }
+                .spn{
+                    width: 40%;
+                }
+                p{
+                    color: white;
+                    font-size: 25px;
+                }
+                .hero-bod{
+                    color: white;
+                    font-family: "Space Mono", monospace;
+                }
+            }
+          }
+          .hero-pages2{
+             width: 100%;
+             height: 70vh;
+             margin:    0px 0px;
+             background-color: 
+             #3B3B3B;
+             border-radius: 20px;
+             overflow: hidden;
+             .hero-pages-img{
+                width: 100%;
+                height: 80%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .hero-pages2-text{
+                margin: 22px 20px 0px ;
+                .hero-pages2-txt{
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: white;
+                }
+            }
+            .hero-pages2-span{
+                display: flex;
+                gap: 10px;
+                margin: 10px 20px;
+                .mayda-text{
+                    color: white;
+                }
+            }
+          }
+          .button-non{
+            width: 100%;
+               .hero-button-non{
+                width: 100%;
+                padding: 15px 30px;
+                border-radius: 18px;
+                border: none;
+                cursor: pointer;
+            background-color: #A259FF;
+            color: white;
+            display: block;
+               }
+          }
+          .hero-number-non{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0px;
+            span{
+                width: 100%;
+                display: block;
+            }
+            .spn{
+                width: 40%;
+            }
+            p{
+                color: white;
+                font-size: 25px;
+            }
+            .hero-bod{
+                color: white;
+                font-family: "Space Mono", monospace;
+            }
+          }
+    }
+   
+}
